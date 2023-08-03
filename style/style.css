@@ -129,6 +129,14 @@ slider-wrapper {
   line-height: normal;
 }
 
+@media (max-width: 1025px) {
+  body {
+    overflow: visible;
+  }
+  .slider-block {
+    margin-right: 0%;
+  }
+}
 @media (max-width: 767px) {
   body {
     overflow: visible;
