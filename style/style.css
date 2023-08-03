@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@300;400&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+slider-wrapper {
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+}
+
+.slider-button-block {
+  width: 45%;
+}
+
+.slider-block {
+  width: 55%;
+  margin-right: -18%;
+}
+
+.slider-button-block {
+  padding-left: 120px;
+  margin-top: 150px;
+}
+
+.slider-info-block p {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter";
+  color: #333333;
+}
+.slider-info-block p span {
+  color: #93D50A;
+}
+
+.buttons-block {
+  display: flex;
+}
+.buttons-block button {
+  width: 94.87px;
+  height: 94.87px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-block button:hover {
+  cursor: pointer;
+}
+
+.paragrah-custom {
+  margin-top: -40px;
+}
+
+.slider-button-two {
+  margin-left: 30px;
+}
+
+.slider-block {
+  padding-top: 60px;
+}
+
+.slider-content-block-one {
+  background-color: #93D50A;
+  color: #1F332E;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.slider-content-block-two {
+  background-color: #4B5A66;
+  color: #F2F2F2;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.custom-slider .slick {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.custom-slider .slick-slide {
+  margin: 0 20px;
+}
+.custom-slider .slick-list {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.fhoto-block {
+  margin-top: 50px;
+}
+
+.name {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pro {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text span {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow: visible;
+  }
+  .slider-wrapper {
+    padding-right: 40px;
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+  }
+  .slider-button-block {
+    padding-left: 40px;
+    margin-top: 0px;
+  }
+  .slider-button-block {
+    width: 100%;
+  }
+  .slider-block {
+    width: 100%;
+    margin: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
