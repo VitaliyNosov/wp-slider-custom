@@ -31,5 +31,15 @@ $(document).ready(function(){
     });
 
 
+// button custom arrow slick
+
+
+$('.slider-button-two').on('click', function() {
+  var newImageUrl = 'http://v2.marketlend.com.au/wp-content/uploads/2023/08/Arrow-2.R.svg';
+  $('.slider-button-one img').attr('src', newImageUrl);
+});
+
+
+
 });
 
