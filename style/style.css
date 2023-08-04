@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 slider-wrapper {
@@ -11,6 +11,8 @@ slider-wrapper {
 
 .slider {
   display: flex;
+  justify-content: space-between;
+  margin-right: -7%;
 }
 
 .slider-button-block {
@@ -18,8 +20,7 @@ slider-wrapper {
 }
 
 .slider-block {
-  width: 55%;
-  margin-right: -18%;
+  width: 53.5%;
 }
 
 .slider-button-block {
@@ -45,6 +46,7 @@ slider-wrapper {
   height: 94.87px;
   border: none;
   border-radius: 50px;
+  background-color: #D9D9D9 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,6 +72,8 @@ slider-wrapper {
   color: #1F332E;
   border-radius: 50px;
   padding: 50px;
+  margin-bottom: 40px !important;
+  box-shadow: 11px 15px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .slider-content-block-two {
@@ -77,6 +81,8 @@ slider-wrapper {
   color: #F2F2F2;
   border-radius: 50px;
   padding: 50px;
+  box-shadow: 11px 15px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px !important;
 }
 
 .custom-slider .slick {
@@ -132,6 +138,10 @@ slider-wrapper {
 @media (max-width: 1025px) {
   body {
     overflow: visible;
+  }
+  .slider {
+    display: flex;
+    margin-right: 0%;
   }
   .slider-block {
     margin-right: 20px;
